@@ -1,0 +1,20 @@
+.intel_syntax noprefix
+
+.data
+.global MIN_ELETKOR
+.global MAX_ELETKOR
+.global MIN_NAPI_CIGI
+.global MAX_NAPI_CIGI
+.global MIN_CIGI_KOLT
+.global MAX_CIGI_KOLT
+.global TIZENHAT_EV_NAPOKBAN
+.global SZAL_CIGI_AR
+
+MIN_ELETKOR: .int 16
+MAX_ELETKOR: .int 99
+MIN_NAPI_CIGI: .int 1
+MAX_NAPI_CIGI: .int 40
+MIN_CIGI_KOLT: .int 100
+MAX_CIGI_KOLT: .int 5000
+TIZENHAT_EV_NAPOKBAN: .int 5840
+SZAL_CIGI_AR: .int 20

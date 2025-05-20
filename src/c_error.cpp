@@ -20,7 +20,7 @@ cfgv_exception::cfgv_exception(const hibakod code): code(code){
             this->message = "Tul magas szamot adott meg kornak! (16-99 intervallumon kell megadni!)";
             break;
         case ROSSZ_C_SZAM:
-            this->message = "Rossz szamot adott meg naponta fogyasztot cigarettaknak! (1-40 intervallumon kell megadni!";
+            this->message = "Rossz szamot adott meg naponta fogyasztot cigarettaknak! (1-40 intervallumon kell megadni!)";
             break;
         case ROSSZ_C_AR:
             this->message = "Tul magas szamot adott meg a cigarettadoboz atlagos bekerulesi ertekenek! (100-5000 intervallumon kell megadni!)";

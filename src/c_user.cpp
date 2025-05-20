@@ -101,7 +101,7 @@ int user::get_eddig_szivott_cigi() const {
 }
 
 [[nodiscard]] int user::get_varhato_szivott_cigi(const int input) const{
-    return ((get_varhato_elet_hatra(input) - TIZENHAT_EV_NAPOKBAN) * cigi_szam);
+    return ((get_varhato_elet_hatra(input)) * cigi_szam);
 }
 
 [[nodiscard]] int user::get_varhato_koltott_cigi(const int input) const{
