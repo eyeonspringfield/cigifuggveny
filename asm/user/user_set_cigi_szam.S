@@ -27,8 +27,4 @@ user_set_cigi_szam:
 throw_ros_c_sz:
     push 4
     push ecx
-    call cfgv_exception         // does not return, but add cleanup because i can
-
-    mov esp, ebp
-    pop ebp
-    ret
+    call cfgv_exception         // does not return, no cleanup needed

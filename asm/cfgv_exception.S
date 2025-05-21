@@ -77,4 +77,4 @@ store:
     pop ebp
     mov eax, 1
     mov ebx, 1
-    int 0x80 // syscall for exit since exception does not return control
+    int 0x80                                # syscall for exit since exception does not return control
