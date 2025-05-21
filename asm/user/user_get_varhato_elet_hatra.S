@@ -2,7 +2,6 @@
 
 .text
 .global user_get_varhato_elet_hatra
-extern TIZENHAT_EV_NAPOKBAN
 user_get_varhato_elet_hatra:
 
     push ebp
